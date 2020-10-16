@@ -1,0 +1,6 @@
+flask
+opencv-contrib-python
+pymupdf
+requests
+future
+pdfplumber
