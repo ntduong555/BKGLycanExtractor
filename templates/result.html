@@ -1,0 +1,14 @@
+<html>
+<body>
+<div align="center">
+Original file: <A href="{{infileurl}}">{{filename}}</A>
+<p/>
+{% if not error %}
+Curated file: <A href="{{outfileurl}}">{{"annotated_"+filename}}  </A>
+{% else %}
+Curated file: <font color="red">Error!</color>
+{% endif %}
+<p/>
+<A href=".">Return</A>
+</body>
+</html>
